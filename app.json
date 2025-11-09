@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "1",
-    "slug": "1",
+    "name": "Moviemania",
+    "slug": "Moviemania",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "1",
+    "scheme": "movies",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -23,6 +23,7 @@
     },
     "web": {
       "output": "static",
+      "bundler": "metro",
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
